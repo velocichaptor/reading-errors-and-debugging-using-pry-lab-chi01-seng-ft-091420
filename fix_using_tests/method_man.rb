@@ -10,3 +10,8 @@ def play_game(player1, player2)
   "#{player1} is better than #{player2}"
   binding.pry
 end
+
+player1 = "Stephen"
+player2 = "David"
+start_game(player1, player2)
+play_game(player1, player2)
